@@ -1,5 +1,5 @@
 {
-  "name": "mcart1/cashincashout",
+  "name": "ArtiomSreda/cashincashout",
   "description": "Custom fee calculation. EUR, USD, JPY. Simple CSV data parse.",
   "minimum-stability": "dev",
   "repositories": [
