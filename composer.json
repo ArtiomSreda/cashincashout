@@ -1,0 +1,34 @@
+{
+  "name": "mcart1/cashincashout",
+  "description": "Custom fee calculation. EUR, USD, JPY. Simple CSV data parse.",
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/mcart1/cashincashout.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Cashincashout\\": "app/Cashincashout"
+    },
+    "classmap": [
+      "tests/",
+      "AppLoadComposerHelper.php",
+      "Index.php"
+    ]
+  },
+  "scripts": {
+    "call-app": [
+      "AppLoadComposerHelper::argsHandlerComposer"
+    ],
+    "call-tests": [
+      "vendor\\bin\\phpunit --bootstrap ./vendor/autoload.php ./tests/WeekCheckerHelperTest",
+      "vendor\\bin\\phpunit --bootstrap ./vendor/autoload.php ./tests/CSVModelTest"
+    ]
+  },
+  "require-dev": {
+    "composer/composer": "1.8.5",
+    "phpunit/phpunit": "8"
+  }
+}
