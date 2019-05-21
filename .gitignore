@@ -1,7 +1,7 @@
-/vendor
+#/vendor
 composer.backUp
 composer.lock
 .phpunit.result.cache
 /app/data/input2.csv
 /app/Cashincashout/Helpers/CustomExceptionHelper.php
-install.php
+#install.php
