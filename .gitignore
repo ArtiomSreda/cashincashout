@@ -1,4 +1,4 @@
-#/vendor
+vendor
 composer.backUp
 composer.lock
 .phpunit.result.cache
