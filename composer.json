@@ -2,6 +2,7 @@
   "name": "artiomsreda/cashincashout",
   "description": "Custom fee calculation. EUR, USD, JPY. Simple CSV data parse.",
   "minimum-stability": "dev",
+  "version": "0.0.2",
   "repositories": [
     {
       "type": "vcs",
