@@ -1,11 +1,11 @@
 {
-  "name": "ArtiomSreda/cashincashout",
+  "name": "artiomsreda/cashincashout",
   "description": "Custom fee calculation. EUR, USD, JPY. Simple CSV data parse.",
   "minimum-stability": "dev",
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/ArtiomSreda/cashincashout.git"
+      "url": "https://github.com/artiomsreda/cashincashout.git"
     }
   ],
   "autoload": {
